@@ -2,10 +2,7 @@ module.exports = function(grunt) {
 
     var sources = [
         'source/build/intro.js',
-        'source/helpers.js',
-        'source/setup.js',
-        'source/core/*.js',
-        'source/inputs/*.js',
+        'source/*.js',
         'source/build/export.js',
         'source/build/outro.js'
     ];
